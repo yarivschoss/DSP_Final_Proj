@@ -81,9 +81,9 @@ Outputs (plots + CSV files) will appear in `plots/` and `data/`.
 ## 📊 Examples & Results
 | Figure | Description |
 | ------ | ----------- |
-| ![H(z) freq](plots/Q5.png) | **Frequency-response of the distorting system H(z)** |
-| ![Corrected zoom](plots/Q11_Zoomed.png) | **Signal after inverse filtering** – transient removed |
-| ![BPF design](plots/Q16.png) | **200-tap band-pass filter** – Hamming-windowed response |
+| ![H(z) freq](Plots/Q5.png) | **Frequency-response of the distorting system H(z)** |
+| ![Corrected zoom](Plots/Q11_Zoomed.png) | **Signal after inverse filtering** – transient removed |
+| ![BPF design](Plots/Q16.png) | **200-tap band-pass filter** – Hamming-windowed response |
 
 ---
 
