@@ -16,8 +16,8 @@
 3. [Directory Structure](#-directory-structure)  
 4. [Quick Start](#-quick-start)  
 5. [Examples & Results](#-examples--results)  
-6. [Technologies](#-technologies)  
-7. [Author](#-author)  
+6. [Technologies](#technologies)  
+7. [Author](#author)   
 
 ---
 
