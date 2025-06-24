@@ -11,13 +11,13 @@
 ---
 
 ## 📑 Table of Contents
-1. [Overview](#-overview)  
-2. [Project Goals](#-project-goals)  
-3. [Directory Structure](#-directory-structure)  
-4. [Quick Start](#-quick-start)  
-5. [Examples & Results](#-examples--results)  
+1. [Overview](#overview)  
+2. [Project Goals](#project-goals)  
+3. [Directory Structure](#directory-structure)  
+4. [Quick Start](#quick-start)  
+5. [Examples & Results](#examples--results)  
 6. [Technologies](#technologies)  
-7. [Author](#author)   
+7. [Author](#author)  
 
 ---
 
@@ -28,7 +28,7 @@ This project demonstrates practical DSP techniques—​convolution, Butterworth
 
 ## 🚀 Project Goals
 - **Implement** discrete-time convolution from scratch.  
-- **Design & analyse** Butterworth low-pass and band-pass filters.  
+- **Design & analyse** a 200-tap Hamming-windowed band-pass FIR filter.  
 - **Visualise** impulse, step, and frequency responses.  
 - **Explore** group delay and linear vs. non-linear phase behaviours.  
 
@@ -81,9 +81,9 @@ Outputs (plots + CSV files) will appear in `plots/` and `data/`.
 ## 📊 Examples & Results
 | Figure | Description |
 | ------ | ----------- |
-| ![freq resp](plots/freq_response.png) | **Frequency response** of designed Butterworth filter |
-| ![imp resp](plots/imp_response.png)  | **Impulse response** vs. ideal response |
-| ![conv](plots/convolution_demo.png)  | **Convolution demo** of input signal with filter kernel |
+| ![H(z) freq](plots/Q5.png) | **Frequency-response of the distorting system H(z)** |
+| ![Corrected zoom](plots/Q11_Zoomed.png) | **Signal after inverse filtering** – transient removed |
+| ![BPF design](plots/Q16.png) | **200-tap band-pass filter** – Hamming-windowed response |
 
 ---
 
@@ -94,12 +94,14 @@ Outputs (plots + CSV files) will appear in `plots/` and `data/`.
 | Numerical computing    | **NumPy**, **SciPy**  |
 | Plotting               | **Matplotlib** |
 
+
 ---
 
 ## ✏️ Author
 **Yariv Shossberger** – DSP enthusiast, hardware engineer, and EE undergrad (Afeka College).  
 - ✉️ [yarivshossberger@gmail.com](mailto:yarivshossberger@gmail.com)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/yariv-shossberger-2334911b0)  
+
 
 ---
 
