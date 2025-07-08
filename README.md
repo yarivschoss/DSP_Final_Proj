@@ -37,11 +37,11 @@ This project demonstrates practical DSP techniques—​convolution, Butterworth
 ## 📂 Directory Structure
 ```text
 FinalProj/
-├── src/           # Python source code
+├── src/                             # Python source code
 │   ├── Yariv & Ori FinalWork.py
-├── data/          # Input signal samples
-├── plots/         # Auto-generated figures
-└── README.md      # You are here 🙂
+├── 314679713-proj_data.txt          # Input signal samples
+├── plots/                           # Auto-generated figures
+└── README.md                        # You are here 🙂
 ```
 
 ---
