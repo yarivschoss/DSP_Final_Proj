@@ -38,10 +38,8 @@ This project demonstrates practical DSP techniques—​convolution, Butterworth
 ```text
 FinalProj/
 ├── src/           # Python source code
-│   ├── main.py
-│   ├── filters.py
-│   └── utils.py
-├── data/          # Input / output signal samples
+│   ├── Yariv & Ori FinalWork.py
+├── data/          # Input signal samples
 ├── plots/         # Auto-generated figures
 └── README.md      # You are here 🙂
 ```
